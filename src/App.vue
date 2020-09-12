@@ -30,6 +30,8 @@ export default {
 
 <style>
 :root {
-  --nunito-bold: 'Nunito', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+  --size-sec-title: 1.2rem;
 }
 </style>

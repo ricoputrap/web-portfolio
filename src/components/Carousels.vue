@@ -4,18 +4,13 @@
         <v-carousel-item
           v-for="(item, i) in carousel_items"
           :key="i"
-          :src="item.src"
-        >
-        <div align="center" justify="center" class="fill-height"> 
-            <h1>RICO PUTRA PRADANA</h1>
-            <h3>Let's help people with data!</h3>
-        </div>
-          <!-- <v-row align="center" justify="center" class="fill-height">
-            <h1>RICO PUTRA PRADANA</h1>
+          :src="item.src">
+          <v-row align="center" justify="center" class="fill-height">
+            <div class="text-center">
+              <h1 class="font-weight-black size-title">RICO PUTRA PRADANA</h1>
+              <p class="font-weight-thin subtitle">Let's help people with data!</p>
+            </div>
           </v-row>
-          <v-row class="fill-height">
-            <h3>Let's help people with data!</h3>
-          </v-row> -->
         </v-carousel-item>
       </v-carousel>
   </v-main>
@@ -36,6 +31,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+* {
+  font-family: var(--open-sans);
+}
 
+.size-title {
+  font-size: 2.5rem;
+}
+.subtitle {
+  font-size: var(--size-sec-title);
+}
 </style>
