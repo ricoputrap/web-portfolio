@@ -1,20 +1,6 @@
 <template>
   <v-main class="pa-0">
     <Carousels />
-      <!-- <v-carousel hide-delimiters :show-arrows="false">
-        <v-carousel-item
-          v-for="(item, i) in carousel_items"
-          :key="i"
-          :src="item.src"
-        >
-          <v-row align="center" justify="center" class="fill-height">
-            <h1>RICO PUTRA PRADANA</h1>
-          </v-row>
-          <v-row class="fill-height">
-            <h3>Let's help people with data!</h3>
-          </v-row>
-        </v-carousel-item>
-      </v-carousel> -->
   </v-main>
 </template>
 
