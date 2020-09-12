@@ -1,17 +1,17 @@
 <template>
     <v-container fluid class="pt-7" >
         <v-row justify="center" class="mb-6">
-            <h2 class="font-weight-regular pa-2">About Me</h2>
+            <h2 class="font-weight-regular pa-2">{{title}}</h2>
         </v-row>
-        <v-container>
-            <p>HAHAHA</p>
-        </v-container>
     </v-container>
 </template>
 
 <script>
 export default {
-    name: "Section"
+    name: "Section",
+    props: {
+        title: String
+    },
 }
 </script>
 

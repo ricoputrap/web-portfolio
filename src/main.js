@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import vuetify from './plugins/vuetify';
+import vuetify from './plugins/vuetify'
+import store from './store'
 
 import Home from './pages/Home'
 
@@ -17,6 +18,7 @@ const router = new VueRouter({
 })
 
 new Vue({
+  store,
   router,
   vuetify,
   render: h => h(App)
