@@ -1,7 +1,12 @@
 <template>
   <v-app>
-    <Navbar />
-
+    <v-app-bar
+      app
+      color="#4B78ED"
+      
+      hide-on-scroll>
+      <Navbar />
+    </v-app-bar>
     <v-main>
       <router-view></router-view>
     </v-main>
