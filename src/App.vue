@@ -3,7 +3,6 @@
     <v-app-bar
       app
       color="#4B78ED"
-      
       hide-on-scroll>
       <Navbar />
     </v-app-bar>
@@ -28,3 +27,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+:root {
+  --nunito-bold: 'Nunito', sans-serif;
+}
+</style>

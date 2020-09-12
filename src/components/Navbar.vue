@@ -17,4 +17,7 @@ export default {
 </script>
 
 <style scoped>
+* {
+    font-family: var(--nunito-bold);
+}
 </style>
