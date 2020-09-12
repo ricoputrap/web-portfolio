@@ -2,8 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="#4B78ED"
-      hide-on-scroll>
+      color="#4B78ED">
       <Navbar />
     </v-app-bar>
     <v-main>

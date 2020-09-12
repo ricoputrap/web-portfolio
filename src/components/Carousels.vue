@@ -7,7 +7,7 @@
         <v-row align="center" justify="center" class="fill-height bg-blue">
           <div class="text-center">
             <h1 class="font-weight-black size-title">RICO PUTRA PRADANA</h1>
-            <p class="font-weight-thin subtitle">Let's help people with data!</p>
+            <h2 class="font-weight-thin subtitle">Let's help people with data!</h2>
           </div>
         </v-row>
       </v-carousel-item>

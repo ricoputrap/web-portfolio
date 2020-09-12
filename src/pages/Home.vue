@@ -1,16 +1,19 @@
 <template>
   <v-main class="pa-0">
     <Carousels />
+    <Section />
   </v-main>
 </template>
 
 <script>
 import Carousels from '../components/Carousels'
+import Section from '../components/Section'
 
 export default {
     name: "Home",
     components: {
-      Carousels
+      Carousels,
+      Section,
     },
     data() {
       return {
