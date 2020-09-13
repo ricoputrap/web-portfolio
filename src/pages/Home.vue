@@ -1,27 +1,22 @@
 <template>
   <v-main class="pa-0">
     <Carousels />
-    <div
-      v-for="aSection in sections"
-      :key="aSection">
-      <Section :a_section="aSection" />
-    </div>
+    <About />
+    <Projects />
   </v-main>
 </template>
 
 <script>
-// pass a component as a prop: https://stackoverflow.com/questions/42992579/is-it-possible-to-pass-a-component-as-props-and-use-it-in-a-child-component-in-v
-
-import Carousels from '../components/Carousels'
-import Section from '../components/Section'
-
-import { mapGetters } from 'vuex'
+import Carousels from '../components/Home/Carousels'
+import About from '../components/Home/About'
+import Projects from '../components/Home/Projects'
 
 export default {
     name: "Home",
     components: {
       Carousels,
-      Section,
+      About,
+      Projects,
     },
     data() {
       return {
@@ -32,10 +27,11 @@ export default {
         ]
       }
     },
-    computed: mapGetters(['sections']),
 }
 </script>
 
 <style>
-
+* {
+    font-family: var(--open-sans);
+}
 </style>

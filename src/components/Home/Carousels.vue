@@ -21,7 +21,7 @@ export default {
       return {
         carousel_items: [
           {
-            src: require("../assets/images/banner-img.png")
+            src: require("../../assets/images/banner-img.png")
           },
         ]
       }
@@ -30,10 +30,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  font-family: var(--open-sans);
-}
-
 .size-title {
   font-size: 2.5rem;
 }

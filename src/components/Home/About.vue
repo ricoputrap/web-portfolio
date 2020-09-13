@@ -1,10 +1,17 @@
 <template>
-  <h1>hhhhhh</h1>
+    <v-container fluid class="pt-7" >
+        <SectionHeader sec-title="About" />
+    </v-container>
 </template>
 
 <script>
-export default {
+import SectionHeader from '../SectionHeader'
 
+export default {
+    name: 'About',
+    components: {
+        SectionHeader
+    }
 }
 </script>
 
