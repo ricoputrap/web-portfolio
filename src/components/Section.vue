@@ -1,7 +1,7 @@
 <template>
     <v-container fluid class="pt-7" >
         <v-row justify="center" class="mb-6">
-            <h2 class="font-weight-regular pa-2">{{title}}</h2>
+            <h2 class="font-weight-regular pa-2">{{a_section.title}}</h2>
         </v-row>
     </v-container>
 </template>
@@ -10,7 +10,7 @@
 export default {
     name: "Section",
     props: {
-        title: String
+        a_section: Object
     },
 }
 </script>

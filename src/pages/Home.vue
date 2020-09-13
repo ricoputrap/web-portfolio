@@ -2,11 +2,10 @@
   <v-main class="pa-0">
     <Carousels />
     <div
-      v-for="secTitle in sec_titles"
-      :key="secTitle">
-      <Section :title="secTitle" />
+      v-for="aSection in sections"
+      :key="aSection">
+      <Section :a_section="aSection" />
     </div>
-    <Section />
   </v-main>
 </template>
 
@@ -33,7 +32,7 @@ export default {
         ]
       }
     },
-    computed: mapGetters(['sec_titles']),
+    computed: mapGetters(['sections']),
 }
 </script>
 

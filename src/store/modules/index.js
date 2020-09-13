@@ -1,9 +1,29 @@
 const state = {
-    sections: ['About Me', 'Projects', 'Experiences', 'Skills', 'Publications', 'Contact Me!']
+    sections_state: [
+        {
+            title: 'About Me',
+        },
+        {
+            title: 'Projects',
+        },
+        {
+            title: 'Experiences',
+        },
+        {
+            title: 'Skills',
+        },
+        {
+            title: 'Publications',
+        },
+        {
+            title: 'Contact Me!',
+        },
+    ],
+    // sections: ['About Me', 'Projects', 'Experiences', 'Skills', 'Publications', 'Contact Me!']
 }
 
 const getters = {
-    sec_titles: (state) => state.sections
+    sections: (state) => state.sections_state
 };
 
 const mutations = {}
