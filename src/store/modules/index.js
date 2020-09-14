@@ -4,7 +4,7 @@ const state = {
             title: "Project Title",
             // img: ""
             posted: "August 2020",
-            desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa",
+            desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa Deskripsi lorem ipsum dolo",
             stacks: [
                 {
                     name: "python",
@@ -25,7 +25,7 @@ const state = {
         {
             title: "Project Title",
             posted: "August 2020",
-            desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa",
+            desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa Deskripsi lorem iah yaaa",
             stacks: [
                 {
                     name: "python",
@@ -46,7 +46,7 @@ const state = {
         {
             title: "Project Title",
             posted: "August 2020",
-            desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa",
+            desc: "Deskripsi lorem ipsum dolor si ametipsi lorem ipsum dolor si amet amit lah yaaa",
             stacks: [
                 {
                     name: "python",

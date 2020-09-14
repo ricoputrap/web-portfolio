@@ -9,13 +9,18 @@
                     class="d-flex child-flex"
                     cols="4">
                     <v-card tile>
+                        <!-- 
+                            Problems:
+                            - project title harusnya di bawah
+                            - project title harusnya bold
+                         -->
                         <v-img
                             src="../../assets/images/img-project.png">
                             <v-card-title class="white--text">{{project.title}}</v-card-title>
                         </v-img>
                         <v-card-subtitle class="pb-0 mb-1">{{project.posted}}</v-card-subtitle>
                         <v-card-text class="text--primary">
-                            <p class="mb-1">{{project.desc}}</p>
+                            <p class="mb-2">{{project.desc}}</p>
                             <div class="d-flex flex-row">
                                 <v-chip
                                     v-for="stack in project.stacks"
@@ -28,7 +33,31 @@
                                     </v-chip>
                             </div>
                         </v-card-text>
-                        
+                        <!-- 
+                            problems:
+                            - bold details
+                            - kotak simetris img btn
+                         -->
+                        <v-card-actions class="pb-3 px-4">
+                            <v-btn
+                                color="orange"
+                                text>
+                                Details
+                            </v-btn>
+                            <v-spacer></v-spacer>
+                            <v-btn>
+                                <v-img 
+                                    max-height="40"
+                                    max-width="40"
+                                    src="../../assets/images/btn-github.png"></v-img>
+                            </v-btn>
+                            <v-btn>
+                                <v-img 
+                                    max-height="40"
+                                    max-width="40"
+                                    src="../../assets/images/btn-medium.png"></v-img>
+                            </v-btn>
+                        </v-card-actions>
                     </v-card>
                 </v-col>
             </v-row>
