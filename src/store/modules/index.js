@@ -2,13 +2,22 @@ const state = {
     projects: [
         {
             title: "Project Title",
+            // img: ""
             posted: "August 2020",
             desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa",
-            stack: [
+            stacks: [
                 {
                     name: "python",
                     color: "#366F9E",
-                }
+                },
+                {
+                    name: "pandas",
+                    color: "#FFCA00",
+                },
+                {
+                    name: "sql",
+                    color: "#5D87A1",
+                },
             ],
             medium: "#",
             github: "#",
@@ -17,11 +26,19 @@ const state = {
             title: "Project Title",
             posted: "August 2020",
             desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa",
-            stack: [
+            stacks: [
                 {
                     name: "python",
                     color: "#366F9E",
-                }
+                },
+                {
+                    name: "pandas",
+                    color: "#FFCA00",
+                },
+                {
+                    name: "sql",
+                    color: "#5D87A1",
+                },
             ],
             medium: "#",
             github: "#",
@@ -30,11 +47,19 @@ const state = {
             title: "Project Title",
             posted: "August 2020",
             desc: "Deskripsi lorem ipsum dolor si amet amit lah yaaa",
-            stack: [
+            stacks: [
                 {
                     name: "python",
                     color: "#366F9E",
-                }
+                },
+                {
+                    name: "pandas",
+                    color: "#FFCA00",
+                },
+                {
+                    name: "sql",
+                    color: "#5D87A1",
+                },
             ],
             medium: "#",
             github: "#",
